@@ -1,0 +1,70 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: lightgray;
+}
+
+.white {
+    background-color: white;
+}
+
+main, section {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+section {
+    border-radius: 15px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container.box {
+    border-bottom: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+/* global */
+
+
+/* nav */
+
+.nav {
+    height: 80px;
+}
+
+.nav img {
+    margin-left: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav h1 {
+    display: inline;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+/* nav */
+
+
+/* buttom section */
+
+.btn {
+    
+}
+
+/* buttom section */
