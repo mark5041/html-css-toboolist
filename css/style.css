@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -26,23 +26,32 @@ section {
 
 .container{
     width: 70%;
-    margin: 0 auto;
+    padding: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.container.box {
+.box {
     border-bottom: 1px solid lightgray;
-    border-collapse: collapse;
+    padding-left: 10%;
+    width: 100%;
 }
 
+h2, h1{
+    display: initial;
+}
+
+.row {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 /* global */
 
 
 /* nav */
 
 .nav {
-    height: 80px;
+    height: 100px;
 }
 
 .nav img {
@@ -54,8 +63,8 @@ section {
 
 .nav h1 {
     display: inline;
-    font-size: 40px;
-    line-height: 80px;
+    font-size: 50px;
+    line-height: 100px;
 }
 
 /* nav */
@@ -64,7 +73,82 @@ section {
 /* buttom section */
 
 .btn {
-    
+    border-radius: 5px;
+    padding: 0.5em 1.5em;
+}
+
+.list {
+    border: 3px solid rgb(93, 93, 155);
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.new {
+    background-color: white; 
 }
 
 /* buttom section */
+
+/* list */
+
+ul {
+    list-style: none;
+    padding-left: 1.3em;
+}
+
+.first:before
+{
+    content: '\23F7';  /* any design */
+}
+
+.tondo{
+    color: lawngreen;
+    border-radius: 100%;
+    border: 3px solid lawngreen;
+}
+
+.check {
+    color: lawngreen;
+    border: 3px solid lawngreen;
+}
+
+.ics {
+    color: red;
+    border: 3px solid red;
+}
+
+.btn-first {
+    border-radius: 15px;
+    padding: 0.3em 1em;
+    border: none;
+}
+
+.edit {
+    background-color: #45abe9;
+    color: white;
+}
+
+.goal {
+    background-color: #9c72e4;
+    color: white;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+    color: white;
+}
+
+.mob {
+    background-color: #f29e33;
+    color: white;
+}
+
+.web {
+    background-color: #d863a0;
+    color: white;
+}
+
+.sale {
+    background-color: #b0c926;
+    color: white;
+}
